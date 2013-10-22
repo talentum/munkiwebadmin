@@ -1,0 +1,51 @@
+Unhandled exception in thread started by <bound method Command.start_server_servestatic of <django_wsgiserver.management.commands.runwsgiserver.Command object at 0x103c4af10>>
+Validating models..
+0 errors found
+October 21, 2013 - 16:28:28
+Django version 1.5.1, using settings 'munkiwebadmin.settings'
+cherrypy django_wsgiserver is running at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+launching with the following options:
+{'adminserve': 'Deprecated',
+ 'autoreload': True,
+ 'daemonize': False,
+ 'host': '0.0.0.0',
+ 'pidfile': None,
+ 'port': '8000',
+ 'server_group': 'www-data',
+ 'server_name': 'localhost',
+ 'server_user': 'www-data',
+ 'servestaticdirs': True,
+ 'ssl_certificate': None,
+ 'ssl_private_key': None,
+ 'staticserve': True,
+ 'threads': 10,
+ 'workdir': None}
+Traceback (most recent call last):
+  File "/Users/Shared/munkiwebadmin_env/lib/python2.7/site-packages/django_wsgiserver/management/commands/runwsgiserver.py", line 448, in start_server_servestatic
+    server.start()
+  File "/Users/Shared/munkiwebadmin_env/lib/python2.7/site-packages/django_wsgiserver/wsgiserver/wsgiserver2.py", line 1857, in start
+    raise socket.error(msg)
+socket.error: No socket could be created
+Validating models..
+0 errors found
+October 21, 2013 - 16:57:55
+Django version 1.5.1, using settings 'munkiwebadmin.settings'
+cherrypy django_wsgiserver is running at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+launching with the following options:
+{'adminserve': 'Deprecated',
+ 'autoreload': True,
+ 'daemonize': False,
+ 'host': '0.0.0.0',
+ 'pidfile': None,
+ 'port': '8000',
+ 'server_group': 'www-data',
+ 'server_name': 'localhost',
+ 'server_user': 'www-data',
+ 'servestaticdirs': True,
+ 'ssl_certificate': None,
+ 'ssl_private_key': None,
+ 'staticserve': True,
+ 'threads': 10,
+ 'workdir': None}
